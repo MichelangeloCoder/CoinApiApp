@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentationlayer.coin.CoinActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <ProgressBar
+                android:id="@+id/coinProgressBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgCoinImageDetail"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                />
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtCoinName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:text="@string/coin_name2"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/txtCoinMarketCap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/coin_description"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtCoinPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/coin_price"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txtCoinPriceLow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/low_price"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txtCoinPriceHigh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/high_price"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txtCoinPricePercentChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/coin_price2"
+                android:textSize="16sp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/coin_fetch"
+                android:textColor="@color/white"
+                android:textSize="18sp"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

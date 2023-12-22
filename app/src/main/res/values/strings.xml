@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CoinApiApp</string>
+    <string name="sortbtn">Sort By Name</string>
+    <string name="coinimage">coinImage</string>
+    <string name="coin_name">Coin Name</string>
+    <string name="coin_name2">Coin name</string>
+    <string name="coin_description">Coin Description</string>
+    <string name="coin_price">Coin Price</string>
+    <string name="low_price">Low Price</string>
+    <string name="high_price">High Price</string>
+    <string name="coin_price2">Coin Price</string>
+    <string name="coin_fetch">Coin fetch</string>
+</resources>
